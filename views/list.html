@@ -1,0 +1,22 @@
+<table class="table table-bordered">
+    <thead>
+        <th>Item</th>
+        <th>Age</th>
+        <th>Size</th>
+        <th>Gender</th>
+        <th>Image</th>
+        <th>Link</th>
+        <th>Claim</th>
+    </thead>
+    <tr ng-repeat="(itemID, item) in wish.items">
+        <td>{{item.name}}</td>
+        <td>{{item.age}}</td>
+        <td>{{item.size}}</td>
+        <td>{{item.gender}}</td>
+        <td><img ng-src="{{item.image}}"></td>
+        <td><a ng-href="{{item.link}}"></a></td>
+        <td>
+            <a class="btn btn-danger" href="/#/{{itemID}}/edit">Claim</a>
+        </td>
+    </tr>
+</table>
