@@ -1,0 +1,16 @@
+<h1>{{show.item.name}}</h1>
+<h4><img ng-src="{{show.item.image}}"> </h4>
+<ul>
+    <li>{{show.item.age}}</li>
+    <li>{{show.item.size}}</li>
+    <li>{{show.item.gender}}</li>
+    <li><a ng-href="{{show.item.link}}">{{show.item.link}}</a> </li>
+</ul>
+
+<form name="claimForm" ng-submit="claimForm.$valid && wish.addItem()" novalidate>
+    <div class="form-group" ng-class="{'has-error': !wish.item.claim}">
+        <label class="control-label">Claim!</label>
+        <input class="form-control" type="text" ng-model="wish.newItem.claim" required>
+    </div>
+    <input type="submit" value="Claim Item" ng-disabled="claimForm.$invalid">
+</form>
