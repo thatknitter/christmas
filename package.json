@@ -15,7 +15,7 @@
   "bugs": {
     "url": "https://github.com/thatknitter/christmas/issues"
   },
-  "homepage": "https://github.com/thatknitter/christmas#readme",
+  "homepage": "https://github.com/thatknitter/christmas",
   "dependencies": {
     "angular": "^1.5.9",
     "angular-route": "^1.5.9",
