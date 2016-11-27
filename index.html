@@ -2,12 +2,13 @@
 <html ng-app="partyApp">
     <head>
         <title>Steamboat Springs Ward Christmas Party</title>
-        <link rel="stylesheet" type="text/css" href="styles/main.css">
         <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" type="text/css" href="styles/main.css">
     </head>
     <body>
         <header>
-            <img src="img/banner.jpg" alt="silver-heart-shaped-ornament-in-pine-tree">
+            <img src="img/banner.jpg" class="img-responsive" alt="silver-heart-shaped-ornament-in-pine-tree">
             <div class="jumbotron"><h1>Steamboat Springs Ward Christmas Party</h1></div>
         </header>
         <div class="info">
@@ -17,7 +18,7 @@
                 <br>
                 <ul>
                     <li><strong>Where:</strong> The Steamboat Springs Chapel</li>
-                    <li><strong>When:</strong><a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=bDhscmZ1NTI5cWl1ZXIzOGJwYmY2MXRsNTAgdGFwcGluZ29uY29uY3JldGVAbQ&tmsrc=tappingonconcrete%40gmail.com">Saturday, December 17th at 6PM</a> </li>
+                    <li><strong>When:</strong> <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=bDhscmZ1NTI5cWl1ZXIzOGJwYmY2MXRsNTAgdGFwcGluZ29uY29uY3JldGVAbQ&tmsrc=tappingonconcrete%40gmail.com">Saturday, December 17th at 6PM</a> </li>
                     <li><strong>What should I bring?:</strong> You should bring a side dish or dessert to share</li>
                 </ul>
                 <br>
@@ -29,10 +30,42 @@
                 To register to bring one of the gifts, please click on the button that says "claim" to the right of the gift. This will take you to the item page, where you'll type in your name and click "submit" at
                 the bottom of the page. To undo this, please contact Kimberly via the email form at the bottom of the page.
             </p>
-        </div>
-        <div class="ng-view">
+            <div class="ng-view">
 
+            </div>
         </div>
+        <div class="email">
+            <form name="sentMessage" id="contactForm" novalidate>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                    <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <button type="submit" class="btn btn-xl">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+
         <script src="node_modules/jquery/dist/jquery.min.js"></script>
         <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
         <script src="node_modules/angular/angular.min.js"></script>
@@ -48,5 +81,9 @@
         <script src="js/controllers/show.js"></script>
         <script src="js/controllers/item.js"></script>
         <script src="js/factories/wishlist.js"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
     </body>
 </html>
