@@ -1,0 +1,10 @@
+{
+  "name": "christmas",
+  "description": "official web page for the church Christmas party",
+  "main": "index.html",
+  "authors": [
+    "Kimberly Lewis"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/thatknitter/christmas"
+}
