@@ -6,6 +6,7 @@
         <th>Gender</th>
         <th>Image</th>
         <th>Link</th>
+        <th>Code</th>
         <th>Claim</th>
     </thead>
     <tr ng-repeat="(itemID, item) in wish.items">
@@ -15,6 +16,7 @@
         <td>{{item.gender}}</td>
         <td><img ng-src="{{item.image}}"></td>
         <td><a ng-href="{{item.link}}"></a></td>
+        <td>{{item.code}}</td>
         <td>
             <a class="btn btn-danger" href="/#/{{itemID}}/edit">Claim</a>
         </td>
