@@ -10,7 +10,7 @@ app.controller('ContactController', function ($scope, $http) {
         if (contactform.$valid) {
             $http({
                 method  : 'POST',
-            url     : 'contact-form.php',
+            url     : '../../contact-form.php',
             data    : $.param($scope.formData),  //param method from jQuery
             headers : { 'Content-Type': 'application/x-www-form-urlencoded' }  //set the headers so angular passing info as form data (not request payload)
         }).success(function(data){
@@ -27,7 +27,7 @@ app.controller('ContactController', function ($scope, $http) {
             });
         } else {
             $scope.submitButtonDisabled = false;
-            $scope.resultMessage = 'Failed <img src="http://www.chaosm.net/blog/wp-includes/images/smilies/icon_sad.gif" alt=":(" class="wp-smiley">  Please fill out all the fields.';
+            $scope.resultMessage = 'Failed Please fill out all the fields.';
             $scope.result='bg-danger';
         }
     }
