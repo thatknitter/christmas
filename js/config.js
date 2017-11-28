@@ -1,6 +1,6 @@
 ;(function(){
     'use strict';
-  angular.module('partyApp')
+  angular.module('contactApp')
       .config(function($routeProvider){
           $routeProvider
               .when('/', {

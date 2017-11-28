@@ -1,5 +1,7 @@
+;(function(){
+    'use strict';
 app.controller('ContactController', function ($scope, $http) {
-    $scope.result = 'hidden'
+    $scope.result = 'hidden';
     $scope.resultMessage;
     $scope.formData; //formData is an object holding the name, email, subject, and message
     $scope.submitButtonDisabled = false;
@@ -32,3 +34,4 @@ app.controller('ContactController', function ($scope, $http) {
         }
     }
 });
+}());
