@@ -1,154 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fdf48df3-6277-4711-98c6-f8d879dee55d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/contact-me.php" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/jqBootstrapValidation.js" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/contact-form.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.gzip" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-animate/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-animate/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js" afterPath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular-animate/angular-animate.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-animate/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-animate/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-animate/package.json" afterPath="$PROJECT_DIR$/bower_components/angular-animate/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-route/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-route/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-route/angular-route.js" afterPath="$PROJECT_DIR$/bower_components/angular-route/angular-route.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-route/angular-route.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-route/angular-route.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-route/angular-route.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular-route/angular-route.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-route/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-route/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-route/package.json" afterPath="$PROJECT_DIR$/bower_components/angular-route/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-strap/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular-strap/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.compat.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.compat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.compat.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.compat.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/angular-strap.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/affix.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/affix.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/affix.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/alert.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/aside.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/button.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/button.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/button.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/collapse.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/collapse.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/collapse.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/compiler.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/compiler.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/compiler.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/compiler.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/compiler.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-formatter.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-formatter.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-formatter.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-formatter.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-parser.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-parser.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-parser.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/date-parser.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/datepicker.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/debounce.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/debounce.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/debounce.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/debounce.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dimensions.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dimensions.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dimensions.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dimensions.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/dropdown.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/modal.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/navbar.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/navbar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/navbar.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/navbar.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/parse-options.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/parse-options.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/parse-options.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/parse-options.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/popover.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/raf.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/raf.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/raf.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/raf.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/scrollspy.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/scrollspy.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/scrollspy.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/select.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tab.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/timepicker.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/tooltip.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.tpl.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.tpl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.tpl.min.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/dist/modules/typeahead.tpl.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/package.json" afterPath="$PROJECT_DIR$/bower_components/angular-strap/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/src/datepicker/datepicker.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/src/datepicker/datepicker.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/src/datepicker/datepicker.tpl.html" afterPath="$PROJECT_DIR$/bower_components/angular-strap/src/datepicker/datepicker.tpl.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/src/helpers/compiler.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/src/helpers/compiler.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/src/tooltip/tooltip.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/src/tooltip/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular-strap/src/typeahead/typeahead.js" afterPath="$PROJECT_DIR$/bower_components/angular-strap/src/typeahead/typeahead.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/.bower.json" afterPath="$PROJECT_DIR$/bower_components/angular/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" afterPath="$PROJECT_DIR$/bower_components/angular/angular.min.js.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/bower.json" afterPath="$PROJECT_DIR$/bower_components/angular/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/angular/package.json" afterPath="$PROJECT_DIR$/bower_components/angular/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/.bower.json" afterPath="$PROJECT_DIR$/bower_components/jquery/.bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" afterPath="$PROJECT_DIR$/bower_components/jquery/AUTHORS.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/LICENSE.txt" afterPath="$PROJECT_DIR$/bower_components/jquery/LICENSE.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/README.md" afterPath="$PROJECT_DIR$/bower_components/jquery/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.map" afterPath="$PROJECT_DIR$/bower_components/jquery/dist/jquery.slim.min.map" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/.eslintrc.json" afterPath="$PROJECT_DIR$/bower_components/jquery/src/.eslintrc.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/attr.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/attributes/val.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/callbacks.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/init.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready-no-deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/core/ready.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/css/curCSS.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/data/Data.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deferred.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/deprecated.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/effects.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/event.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/event.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/manipulation/getAll.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/offset.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/queue.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/serialize.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" afterPath="$PROJECT_DIR$/bower_components/jquery/src/traversing.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/config.js" afterPath="$PROJECT_DIR$/js/config.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/contact.js" afterPath="$PROJECT_DIR$/js/controllers/contact.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/main.js" afterPath="$PROJECT_DIR$/js/main.js" />
-    </list>
+    <list default="true" id="fdf48df3-6277-4711-98c6-f8d879dee55d" name="Default" comment="" />
     <ignored path="christmas.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -168,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.65482235">
-              <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+            <state vertical-scroll-proportion="-21.25">
+              <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -192,13 +45,13 @@
         <entry file="file://$PROJECT_DIR$/js/contact_me.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jqBootstrapValidation.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="jqBootstrapValidation.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
@@ -828,21 +681,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
+    <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="70" column="0" selection-start-line="70" selection-start-column="0" selection-end-line="70" selection-end-column="0" />
+        <state vertical-scroll-proportion="-21.25">
+          <caret line="34" column="34" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -854,11 +697,21 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/js/contact_me.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.65482235">
-          <caret line="43" column="71" selection-start-line="43" selection-start-column="71" selection-end-line="43" selection-end-column="71" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jqBootstrapValidation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
