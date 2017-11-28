@@ -2,30 +2,31 @@ body {
     margin-left: 20%;
     margin-right: 20%;
     font-size: 16pt;
-    background-color: #D2D779;
+    background-color: #33533E;
+    background-image: url("../img/arabesque.png");
 }
 
 .info {
-    background-color: whitesmoke;
+    background-color: #FFFEEF;
     padding: 2%;
     border-style: solid;
-    border-color: #90192C;
+    border-color: #842720;
     border-radius: 10px;
     border-width: 5pt;
 }
 
 .instructions {
-    background-color: whitesmoke;
+    background-color: #FFFEEF;
     padding: 2%;
     border-style: solid;
-    border-color: #90192C;
+    border-color: #842720;
     border-radius: 10px;
     border-width: 5pt;
     margin-bottom: 20px;
 }
 
 .jumbotron {
-    background-color: #CA1B42;
+    background-color: #842720;
     padding: 2%;
     text-align: center;
 }

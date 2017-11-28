@@ -1,4 +1,4 @@
 ;(function(){
     'use strict';
-    angular.module('partyApp', ['ngRoute']);
+    var app = angular.module('contactApp', ['ngRoute']);
 }());
