@@ -9,31 +9,70 @@
         <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css">
     </head>
-    <body>
+    <body ng-app="contactApp">
         <header>
-            <img src="img/banner.jpg" class="img-responsive" alt="silver-heart-shaped-ornament-in-pine-tree">
-            <div class="jumbotron"><h1>Steamboat Springs Ward Christmas Party</h1></div>
+            <img src="img/nativity.jpeg" class="img-responsive" alt="ceramic-nativity-with-word-love">
+            <div class="jumbotron"><h1>Steamboat Springs Nativity Open House</h1></div>
         </header>
         <div class="info">
             <p>
-                It's the most wonderful party of the year! That's right, it's time for the annual Christmas party!
+                It's the most wonderful party of the year! That's right, it's time for the annual Christmas party! Come share our party with us!
+                We'd love if members of the community could show off their favorite nativity scenes, eat some delicious food, and mingle for an evening of seasonal cheer.
                 <br>
                 <br>
                 <ul>
-                    <li><strong>Where:</strong> The Steamboat Springs Chapel</li>
-                    <li><strong>When:</strong> <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=bDhscmZ1NTI5cWl1ZXIzOGJwYmY2MXRsNTAgdGFwcGluZ29uY29uY3JldGVAbQ&tmsrc=tappingonconcrete%40gmail.com">Saturday, December 17th at 6PM</a> </li>
-                    <li><strong>What should I bring?:</strong> You should bring a side dish or dessert to share</li>
+                    <li><strong>Where:</strong> <a href="https://goo.gl/maps/d4yznkkAZpK2">The Church of Jesus Christ of Latter Day Saints, Steamboat Springs</a> </li>
+                    <li><strong>When:</strong> <a href="https://calendar.google.com/calendar/event?action=TEMPLATE&tmeid=M3MxbzdqOTk1YmtmY2llYXN1Zm9sNjBmdG4ga2JsZXdpcy5mbHRAbQ&tmsrc=kblewis.flt%40gmail.com">Saturday, December 9th, 5-8PM </a> </li>
                 </ul>
                 <br>
-                This year we are also "adopting" a couple of families for Christmas. Please bring a wrapped gift from the list with the code provided on the attached tag.
+                <h3>Schedule:</h3>
+                <br>
+                <strong>5PM:</strong> Party starts. Come in and see a Christmas message (which we'll be playing througout the night), view community nativity scenes, and mingle.<br>
+                <strong>6PM:</strong> Our "Special Guest" arrives. (Don't tell the kids - it's Santa!)<br>
+                <strong>7PM:</strong> Join us for some carolling around the piano. We'll provide the music, you provide your beautiful voice!
             </p>
         </div>
         <div class="instructions">
             <p>
-                To register to bring one of the gifts, please click on the button that says "claim" to the right of the gift. This will take you to the item page, where you'll type in your name and click "submit" at
-                the bottom of the page. To undo this, please contact Kimberly via the email form at the bottom of <a href="http://www.thatknitter.com">her personal site</a>.
+               If you'd like to bring a nativity scene to the party or you just have questions, please fill out the form below and we'll get back to you as quickly as possible.
             </p>
-            <div class="ng-view">
+            <div class="container">
+                <div ng-controller="ContactController" class="panel-body">
+                    <form ng-submit="submit(contactform)" name="contactform" method="post" action="" class="form-horizontal" role="form">
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputName.$invalid && submitted }">
+                            <label for="inputName" class="col-lg-2 control-label">Name</label>
+                            <div class="col-lg-10">
+                                <input ng-model="formData.inputName" type="text" class="form-control" id="inputName" name="inputName" placeholder="Your Name" required>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputEmail.$invalid && submitted }">
+                            <label for="inputEmail" class="col-lg-2 control-label">Email</label>
+                            <div class="col-lg-10">
+                                <input ng-model="formData.inputEmail" type="email" class="form-control" id="inputEmail" name="inputEmail" placeholder="Your Email" required>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputSubject.$invalid && submitted }">
+                            <label for="inputSubject" class="col-lg-2 control-label">Subject</label>
+                            <div class="col-lg-10">
+                                <input ng-model="formData.inputSubject" type="text" class="form-control" id="inputSubject" name="inputSubject" placeholder="Subject Message" required>
+                            </div>
+                        </div>
+                        <div class="form-group" ng-class="{ 'has-error': contactform.inputMessage.$invalid && submitted }">
+                            <label for="inputMessage" class="col-lg-2 control-label">Message</label>
+                            <div class="col-lg-10">
+                                <textarea ng-model="formData.inputMessage" class="form-control" rows="4" id="inputMessage" name="inputMessage" placeholder="Your message..." required></textarea>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="col-lg-offset-2 col-lg-10">
+                                <button type="submit" class="btn btn-default" ng-disabled="submitButtonDisabled">
+                                    Send Message
+                                </button>
+                            </div>
+                        </div>
+                    </form>
+                    <p ng-class="result" style="padding: 15px; margin: 0;">{{ resultMessage }}</p>
+                </div>
 
             </div>
         </div>
@@ -46,14 +85,8 @@
         <script src="bower_components/angular-animate/angular-animate.min.js"></script>
         <script src="bower_components/angular-strap/dist/angular-strap.min.js"></script>
         <script src="bower_components/angular-strap/dist/angular-strap.tpl.min.js"></script>
-        <script src="bower_components/ng-file-upload/dist/ng-file-upload.min.js"></script>
-        <script src="bower_components/ng-file-upload/dist/ng-file-upload-all.min.js"></script>
         <script src="js/main.js"></script>
-        <script src="js/config.js"></script>
-        <script src="js/controllers/edit.js"></script>
-        <script src="js/controllers/show.js"></script>
-        <script src="js/controllers/item.js"></script>
-        <script src="js/factories/wishlist.js"></script>
+        <script src="js/controllers/contact.js"></script>
 
     </body>
 </html>

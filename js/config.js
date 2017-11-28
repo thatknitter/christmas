@@ -4,7 +4,8 @@
       .config(function($routeProvider){
           $routeProvider
               .when('/', {
-                  templateUrl: 'views/coming_soon.html',
+                  templateUrl: 'views/create.html',
+                  controller: 'ContactController'
 
               })
               .when('/:id', {
